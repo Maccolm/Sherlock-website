@@ -403,7 +403,7 @@ body {
     padding: 10px 5px;
   }
   .quote__link {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 97%;
   }
   .quote__arrow {
@@ -1414,6 +1414,7 @@ body {
 @media (max-width: 685px) {
   .directions__picture {
     flex: 1 1 1%;
+    overflow: visible;
   }
 }
 .directions__picture img {

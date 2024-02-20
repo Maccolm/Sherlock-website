@@ -333,7 +333,7 @@ $maxWidth: 1830px;
 		padding: 10px 5px;
 	}
 	&__link{
-		font-size: 13px;
+		font-size: 12px;
 		line-height: 97%;
 	}
 	width: 140px;
@@ -1301,7 +1301,8 @@ $maxWidth: 1830px;
 	position: relative;
 	padding-bottom: 20%;
 	@media (max-width: 685px) {
-		flex: 1 1 1%
+		flex: 1 1 1%;
+		overflow: visible;
 	}
 	img{
 		filter:hue-rotate(149deg) sepia(101%) saturate(29%) hue-rotate(323deg);
