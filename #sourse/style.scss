@@ -196,7 +196,7 @@ $maxWidth: 1830px;
 		color: $redColor;
 	}
 	&__other {
-		font-family: Manrope;
+		font-family: ""Manrope"";
 		font-size: 24px;
 		font-style: normal;
 		font-weight: 400;
@@ -288,7 +288,7 @@ $maxWidth: 1830px;
   &__link {
 		text-transform: uppercase;
 		color: #000;
-		font-family: Manrope;
+		font-family: ""Manrope"";
 		font-size: 24px;
 		font-weight: 600;
 		line-height: 24px;
@@ -384,7 +384,7 @@ $maxWidth: 1830px;
 	bottom: 80px;
 	position: relative;
 	color: #D20000;
-	font-family: Manrope;
+	font-family: ""Manrope"";
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
@@ -426,7 +426,7 @@ $maxWidth: 1830px;
 		position: absolute;
 		height: 60px;
 		width: 60px;
-		top: -11px;
+		top: -8px;
 		right: 8px;
 		background: url(../img/logo/lups.png) top left / 100% no-repeat;
 	}
@@ -488,7 +488,7 @@ $maxWidth: 1830px;
 	padding-right: 40px;
 	position: relative;
 	cursor: pointer;
-	font-family: Manrope;
+	font-family: ""Manrope"";
 	font-size: 35px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -553,14 +553,14 @@ $maxWidth: 1830px;
   }
   &__phone {
 	font-size: 16px;
-	font-family: Manrope;
+	font-family: ""Manrope"";
 	font-weight: 400;
 	margin-bottom: 12px;
 }
 &__mail {
 	font-weight: 400;
 	  font-size: 16px;
-	  font-family: Manrope;
+	  font-family: ""Manrope"";
   }
 }
 .menu__phone a,
@@ -636,7 +636,7 @@ $maxWidth: 1830px;
   &__text {
 	display: inline-block;
 	flex: 0 0 200px;
-	font-family: Manrope;
+	font-family: ""Manrope"";
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -724,7 +724,7 @@ $maxWidth: 1830px;
 		top: 50%;
 		left: 0;
 		text-transform: uppercase;
-		font-family: Manrope;
+		font-family: ""Manrope"";
 		font-size: 24px;
 		font-weight: 500;
 		line-height: 25px;
@@ -834,7 +834,7 @@ $maxWidth: 1830px;
   &__title {
 		flex: 1 1 50%;
 		align-self: flex-start;
-		font-family: Barlow Condensed;
+		font-family: 'Barlow Condensed'low Condensed;
 		font-size: 100px;
 		font-style: normal;
 		font-weight: 700;
@@ -846,7 +846,7 @@ $maxWidth: 1830px;
   &__text {
 		align-self: flex-end;
 		flex: 1 1 4%;
-		font-family: Manrope;
+		font-family: "Manrope";
 		color: #D20000;
 		font-size: 16px;
 		font-style: normal;
@@ -869,7 +869,7 @@ $maxWidth: 1830px;
 .information {
   &__number {
 		color: $redColor;
-		font-family: Barlow Condensed;
+		font-family: 'Barlow Condensed'low Condensed;
 		font-size: 153px;
 		font-style: normal;
 		font-weight: 700;
@@ -877,7 +877,7 @@ $maxWidth: 1830px;
 		text-transform: uppercase
   }
   &__text {
-		font-family: Manrope;
+		font-family: "Manrope";
 		font-size: 24px;
 		font-style: normal;
 		font-weight: 400;
@@ -1163,7 +1163,7 @@ $maxWidth: 1830px;
   }
   &__label {
 	color: $redColor;
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
@@ -1172,7 +1172,7 @@ $maxWidth: 1830px;
   }
   &__text {
 	text-align: justify;
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
@@ -1379,7 +1379,7 @@ $maxWidth: 1830px;
 	}
 	&__item {
 		max-width: 278px;
-		font-family: Manrope;
+		font-family: "Manrope";
 		font-size: 20px;
 		font-style: normal;
 		font-weight: 400;
@@ -1456,7 +1456,7 @@ $maxWidth: 1830px;
   }
   &__text {
 	color: #D9D9D9;
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-size: calc(8px + 8 *((100vw - 375px)/ (1659 - 375)));
 	font-style: normal;
 	font-weight: 400;
@@ -2109,7 +2109,7 @@ $maxWidth: 1830px;
 		}
   }
   &__text {
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-weight: 300;
 	font-size: calc(8px + 9 * ((100vw - 375px)/(1659 - 375)));
 	margin-bottom: 3%;
@@ -2183,7 +2183,7 @@ $maxWidth: 1830px;
   &__text {
 	flex: 0 1 14%;
 	transform: translate(0, 2rem);
-	font-family: Manrope;
+	font-family: "Manrope";
 	color: $redColor;
 	font-size: clamp(0.5rem, 0.354rem + 0.62vw, 1rem);//8px(width: 375)- 16px(width:1659px)
 	font-style: normal;
@@ -2253,7 +2253,7 @@ $maxWidth: 1830px;
   }
   &__title {
 	color: $redColor;
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-size: clamp(1.125rem, 0.992rem + 0.69vw, 2.563rem);
 	font-style: normal;
 	font-weight: 600;
@@ -2261,7 +2261,7 @@ $maxWidth: 1830px;
 	text-transform: uppercase;
   }
   &__text {
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-size: clamp(0.875rem, 0.799rem + 0.42vw, 2.125rem);
 	font-style: normal;
 	font-weight: 400;
@@ -2470,7 +2470,7 @@ $maxWidth: 1830px;
   &__text {
 	max-width: 243px;
 	text-align: center;
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 400;
@@ -2499,7 +2499,7 @@ $maxWidth: 1830px;
   &__name{
 	color: $redColor;
 	text-align: center;
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-size: 24px;
 	font-style: normal;
 	font-weight: 400;
@@ -2679,7 +2679,7 @@ $maxWidth: 1830px;
 	font-size: clamp(2.155rem, 0.232rem + 6.01vw, 6.2rem);
   }
   &__btn {
-	font-family: 'Manrope';
+	font-family: '"Manrope"';
 	text-transform: uppercase;
 	line-height: 1;
 	color: #000;
@@ -2895,7 +2895,7 @@ $maxWidth: 1830px;
 	width: 100%;
 	display: block;
 	padding: 17px 0;
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-size: calc(14px + 10 * ((100vw - 375px)/(1659 - 375)));
 	background-color: transparent;
 	color: #fff;
@@ -2965,7 +2965,7 @@ $maxWidth: 1830px;
   }
   &__year {
 	padding-top: 10px;
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-size: clamp(0.72rem, 0.56rem + 0.61vw, 1.925rem);
 	font-weight: 400;
   }
@@ -2973,7 +2973,7 @@ $maxWidth: 1830px;
 	padding-top: 10px;
 	font-size: clamp(1.25rem, -0.053rem + 5.36vw, 6.75rem); //92px
 	font-weight: 500;
-	font-family: Manrope;
+	font-family: "Manrope";
 	line-height: 1.3;
 	>a{
 		transition: color 0.3s ease-out;
@@ -2986,7 +2986,7 @@ $maxWidth: 1830px;
 	}
   }
   &__mail {
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-weight: 500;
 	font-size: clamp(0.85rem, 0.202rem + 2.34vw, 3.625rem); //42px
 	a{
@@ -3040,7 +3040,7 @@ $maxWidth: 1830px;
   }
   &__link {
 	font-size: clamp(0.725rem, 0.479rem + 0.68vw, 2.125rem); //18
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-weight: 400;
 	transition: color 0.3s ease-out;
 	&:hover{
@@ -3049,7 +3049,7 @@ $maxWidth: 1830px;
 }
 &__text {
 	font-size: clamp(0.563rem, 0.398rem + 0.7vw, 1.325rem); //16px
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-weight: 500;
 	color: #BABABA;
 }
@@ -3058,7 +3058,7 @@ $maxWidth: 1830px;
 	line-height: 1.3;
 	color: #BABABA;
 	font-size: clamp(0.563rem, 0.325rem + 1.01vw, 1.475rem); //20
-	font-family: Manrope;
+	font-family: "Manrope";
 	font-weight: 500;
 	transition: color 0.3s ease-out;
 	cursor: default;

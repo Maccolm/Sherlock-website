@@ -23,8 +23,8 @@
 .icon-arrow-angle:after {
   content: "\e900";
   color: #c02118;
-  font-size: 25px;
+  font-size: 21px;
   padding-left: 20px;
-  bottom: 3px;
+  bottom: 5px;
   position: relative;
 }
