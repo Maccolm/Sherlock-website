@@ -450,6 +450,17 @@ body {
 .row-header__logo {
   margin: 5px 0;
   position: relative;
+  opacity: 1;
+  z-index: 5;
+}
+.row-header__logo::after {
+  content: "";
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  top: -8px;
+  right: 8px;
+  background: url(../img/logo/lups.png) top left/100% no-repeat;
 }
 .row-header__year {
   bottom: 80px;
@@ -502,18 +513,6 @@ body {
   letter-spacing: 0.24px;
   text-transform: uppercase;
   color: #C02218;
-  opacity: 1;
-  position: relative;
-  z-index: 5;
-}
-.link__logo-text::after {
-  content: "";
-  position: absolute;
-  height: 60px;
-  width: 60px;
-  top: -8px;
-  right: 8px;
-  background: url(../img/logo/lups.png) top left/100% no-repeat;
 }
 
 .menu {
@@ -3353,7 +3352,7 @@ body {
 }
 @media (max-width: 830px) {
   .form-quote__item {
-    padding: 11px 0 0 12px;
+    padding: 6px 0 0 6px;
   }
 }
 .form-quote__arrow {
