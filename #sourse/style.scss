@@ -400,8 +400,8 @@ $maxWidth: 1830px;
 	font-style: normal;
 	font-weight: 400;
 	letter-spacing: -0.4px;
-	@media (min-width: 1190px) {
 	&::before{ //================================== Хрестик=========================================
+		@media (min-width: 1200px) {
 			content: "+";
 			font-size: 30px;
 			font-weight: 300;
@@ -414,14 +414,14 @@ $maxWidth: 1830px;
 			transform: rotate(45deg);	
 		}
 	}
-	@media (max-width:1100px) {
-		bottom: 72px;
+	@media (max-width:1200px) {
+		bottom: 40px;
 	}
 	@media (max-width:950px) {
-		bottom: 84px;
+		bottom: 51px;
 	}
 	@media (max-width:730px) {
-		bottom: 211px;
+		bottom: 170px;
 	}
 	@media (max-width: 650px) {
 		visibility: hidden;
@@ -752,7 +752,7 @@ $maxWidth: 1830px;
 	}
 	@media (max-width: 1322px) {
 		&__text{
-			left: 70%;
+			left: 40%;
 			top: 30%;
 		}
 	}
@@ -1300,14 +1300,14 @@ $maxWidth: 1830px;
 	flex: 0 1 34%;
 	position: relative;
 	padding-bottom: 20%;
-	overflow: visible !important;
 	@media (max-width: 685px) {
 		flex: 1 1 1%;
+		overflow: visible;
 	}
 	img{
 		filter:hue-rotate(149deg) sepia(101%) saturate(29%) hue-rotate(323deg);
 		z-index: -1;
-		overflow: visible !important;
+		overflow: visible;
 		position: absolute;
 		object-fit: cover;
 		height: 208%;
