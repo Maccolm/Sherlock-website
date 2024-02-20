@@ -400,8 +400,8 @@ $maxWidth: 1830px;
 	font-style: normal;
 	font-weight: 400;
 	letter-spacing: -0.4px;
+	@media (min-width: 1190px) {
 	&::before{ //================================== Хрестик=========================================
-		@media (min-width: 1200px) {
 			content: "+";
 			font-size: 30px;
 			font-weight: 300;
@@ -414,14 +414,14 @@ $maxWidth: 1830px;
 			transform: rotate(45deg);	
 		}
 	}
-	@media (max-width:1200px) {
-		bottom: 40px;
+	@media (max-width:1100px) {
+		bottom: 72px;
 	}
 	@media (max-width:950px) {
-		bottom: 51px;
+		bottom: 84px;
 	}
 	@media (max-width:730px) {
-		bottom: 170px;
+		bottom: 211px;
 	}
 	@media (max-width: 650px) {
 		visibility: hidden;
@@ -752,7 +752,7 @@ $maxWidth: 1830px;
 	}
 	@media (max-width: 1322px) {
 		&__text{
-			left: 40%;
+			left: 70%;
 			top: 30%;
 		}
 	}
