@@ -403,7 +403,7 @@ body {
     padding: 10px 5px;
   }
   .quote__link {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 97%;
   }
   .quote__arrow {
@@ -496,12 +496,17 @@ body {
   }
 }
 
-.link__logo {
+.link__logo-text {
+  font-size: 24px;
+  line-height: normal;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+  color: #C02218;
   opacity: 1;
   position: relative;
   z-index: 5;
 }
-.link__logo::after {
+.link__logo-text::after {
   content: "";
   position: absolute;
   height: 60px;
@@ -509,14 +514,6 @@ body {
   top: -8px;
   right: 8px;
   background: url(../img/logo/lups.png) top left/100% no-repeat;
-}
-
-.link__logo-text {
-  font-size: 24px;
-  line-height: normal;
-  letter-spacing: 0.24px;
-  text-transform: uppercase;
-  color: #C02218;
 }
 
 .menu {
@@ -3184,7 +3181,7 @@ body {
 }
 @media (max-width: 550px) {
   .form__btn {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 .form__quote {

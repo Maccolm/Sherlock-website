@@ -333,7 +333,7 @@ $maxWidth: 1830px;
 		padding: 10px 5px;
 	}
 	&__link{
-		font-size: 14px;
+		font-size: 13px;
 		line-height: 97%;
 	}
 	width: 140px;
@@ -417,7 +417,12 @@ $maxWidth: 1830px;
 	}
   }
 }
-.link__logo{
+.link__logo-text{
+	font-size: 24px;
+	line-height: normal;
+	letter-spacing: 0.24px;
+	text-transform: uppercase;
+	color: $redColor;
 	opacity: 1;
 	position: relative;
 	z-index: 5;
@@ -430,14 +435,6 @@ $maxWidth: 1830px;
 		right: 8px;
 		background: url(../img/logo/lups.png) top left / 100% no-repeat;
 	}
-
-}
-.link__logo-text{
-	font-size: 24px;
-	line-height: normal;
-	letter-spacing: 0.24px;
-	text-transform: uppercase;
-	color: $redColor;
 }
 .menu {
 	position: fixed;
@@ -2701,7 +2698,7 @@ $maxWidth: 1830px;
 		font-size: 20px;
 	}
 	@media (max-width: 550px) {
-		font-size: 14px;
+		font-size: 13px;
 	}
   }
   &__quote{
