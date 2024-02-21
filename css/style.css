@@ -392,11 +392,9 @@ body {
   .quote__square {
     display: block;
     height: 80px;
-    width: 76px;
   }
   .quote__arc {
     height: 50px;
-    width: 91.5%;
     border-width: 16px;
   }
   .quote__item {
@@ -695,24 +693,14 @@ body {
   flex: 0 0 50%;
   align-items: flex-end;
 }
-@media (max-width: 490px) {
+@media (max-width: 650px) {
   .row-introduce__text {
-    max-width: 235px;
+    flex: 1 0 0%;
   }
 }
 .row-introduce__media {
-  flex: 0 0 50%;
+  flex: 1 1 auto;
   display: flex;
-}
-@media (max-width: 650px) {
-  .row-introduce__media {
-    flex: 0 0 52%;
-  }
-}
-@media (max-width: 490px) {
-  .row-introduce__media {
-    min-width: 240px;
-  }
 }
 
 .text {
@@ -770,16 +758,6 @@ body {
   }
 }
 
-@media (max-width: 730px) {
-  .media-block {
-    margin-right: -3%;
-  }
-}
-@media (max-width: 645px) {
-  .media-block {
-    margin-right: -2.6%;
-  }
-}
 .media-block__picture {
   flex: 1 1 50%;
   position: relative;
@@ -901,7 +879,7 @@ body {
   }
   .actions__quote {
     height: 133px;
-    width: 83px;
+    width: 76px;
     bottom: 0px;
   }
   .actions__text {
@@ -920,9 +898,6 @@ body {
     font-size: 19px;
     top: -0.2px;
     left: -11px;
-  }
-  .quote {
-    transform: translate(-10px);
   }
   .quote__arrow {
     margin-top: -8px;

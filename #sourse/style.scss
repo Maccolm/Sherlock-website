@@ -322,11 +322,9 @@ $maxWidth: 1830px;
 	&__square{
 		display: block;
 		height: 80px;
-		width: 76px;
 	}
 	&__arc{
 		height: 50px;
-		width: 91.5%;
 		border-width: 16px;
 	}
 	&__item{
@@ -588,23 +586,17 @@ $maxWidth: 1830px;
 	}
 }
 .row-introduce {
-	display: flex;
+  display: flex;
   &__text {
 	flex: 0 0 50%;
 	align-items: flex-end;
-	@media (max-width: 490px) {
-		max-width: 235px;
+	@media (max-width: 650px) {
+		flex: 1 0 0%;
 	}
   }
   &__media {
-	flex: 0 0 50%;
+	flex: 1 1 auto;
 	display: flex;
-	@media (max-width: 650px) {
-		flex: 0 0 52%;
-	}
-	@media (max-width: 490px) {
-		min-width: 240px;
-	}
   }
 }
 .text {
@@ -662,12 +654,6 @@ $maxWidth: 1830px;
 }
 
 .media-block {
-	@media (max-width: 730px){
-		margin-right: -3%;
-	}
-	@media (max-width: 645px){
-		margin-right: -2.6%;
-	}
   &__picture {
 	flex: 1 1 50%;
 	position: relative;
@@ -787,7 +773,7 @@ $maxWidth: 1830px;
 	.actions{
 		&__quote{
 			height: 133px;
-			width: 83px;
+			width: 76px;
 			bottom: 0px;
 		}
 		&__text{
@@ -811,7 +797,6 @@ $maxWidth: 1830px;
 		}
 	}
 	.quote{
-		transform: translate(-10px);
 		&__arrow{	
 			margin-top: -8px;
 			img{
