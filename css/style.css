@@ -1410,6 +1410,7 @@ body {
   flex: 0 1 34%;
   position: relative;
   padding-bottom: 20%;
+  overflow: visible;
 }
 @media (max-width: 685px) {
   .directions__picture {
@@ -1432,37 +1433,44 @@ body {
 @media (max-width: 1133px) {
   .directions__picture img {
     left: -130px;
+    overflow: visible;
   }
 }
 @media (max-width: 910px) {
   .directions__picture img {
     left: -110px;
+    overflow: visible;
   }
 }
 @media (max-width: 760px) {
   .directions__picture img {
     left: -70px;
+    overflow: visible;
   }
 }
 @media (max-width: 685px) {
   .directions__picture img {
     top: 70px;
     height: 255%;
+    overflow: visible;
   }
 }
 @media (max-width: 660px) {
   .directions__picture img {
     height: 275%;
+    overflow: visible;
   }
 }
 @media (max-width: 550px) {
   .directions__picture img {
     height: 285%;
+    overflow: visible;
   }
 }
 @media (max-width: 490px) {
   .directions__picture img {
     top: 100px;
+    overflow: visible;
   }
 }
 .directions__text {

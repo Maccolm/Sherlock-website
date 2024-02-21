@@ -1300,6 +1300,7 @@ $maxWidth: 1830px;
 	flex: 0 1 34%;
 	position: relative;
 	padding-bottom: 20%;
+	overflow: visible;
 	@media (max-width: 685px) {
 		flex: 1 1 1%;
 		overflow: visible;
@@ -1316,25 +1317,32 @@ $maxWidth: 1830px;
 		left: -180px;
 		@media(max-width: 1133px){
 			left: -130px;
+			overflow: visible;
 		}
 		@media(max-width: 910px){
 			left: -110px;
+			overflow: visible;
 		}
 		@media(max-width: 760px){
 			left: -70px;
+			overflow: visible;
 		}
 		@media(max-width: 685px){
 			top: 70px;
 			height: 255%;
+			overflow: visible;
 		}
 		@media(max-width: 660px){
 			height: 275%;
+			overflow: visible;
 		}
 		@media(max-width: 550px){
 			height: 285%;
+			overflow: visible;
 		}
 		@media(max-width: 490px){
 			top: 100px;
+			overflow: visible;
 		}
 	}
   }
