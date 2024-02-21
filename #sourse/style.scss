@@ -595,7 +595,7 @@ $maxWidth: 1830px;
 	}
   }
   &__media {
-	flex: 1 1 auto;
+	flex: 1 0 auto;
 	display: flex;
   }
 }
@@ -633,6 +633,7 @@ $maxWidth: 1830px;
 	justify-self: center;
 }
 @media (max-width:1200px) {
+	display: none;
 	position: absolute;
 	left: 0;
 	&__text{
@@ -689,6 +690,7 @@ $maxWidth: 1830px;
 	  flex: 1 1 50%;
 	  @media (max-width: 1322px) {
 		  flex: 0 0 0;
+		  display: none;
 	}
   }
 }

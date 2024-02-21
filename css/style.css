@@ -699,7 +699,7 @@ body {
   }
 }
 .row-introduce__media {
-  flex: 1 1 auto;
+  flex: 1 0 auto;
   display: flex;
 }
 
@@ -738,6 +738,7 @@ body {
 }
 @media (max-width: 1200px) {
   .experiense-text {
+    display: none;
     position: absolute;
     left: 0;
   }
@@ -799,6 +800,7 @@ body {
 @media (max-width: 1322px) {
   .media-block__actions {
     flex: 0 0 0;
+    display: none;
   }
 }
 
