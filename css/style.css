@@ -690,11 +690,15 @@ body {
   display: flex;
 }
 .row-introduce__text {
-  flex: 0 0 50%;
+  flex: 0 1 50%;
   align-items: flex-end;
 }
+@media (max-width: 490px) {
+  .row-introduce__text {
+    max-width: 235px;
+  }
+}
 .row-introduce__media {
-  min-width: 240px;
   flex: 1 0 auto;
   display: flex;
 }

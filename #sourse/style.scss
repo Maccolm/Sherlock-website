@@ -588,14 +588,13 @@ $maxWidth: 1830px;
 .row-introduce {
   display: flex;
   &__text {
-	flex: 0 0 50%;
+	flex: 0 1 50%;
 	align-items: flex-end;
-	// @media (max-width: 650px) {
-	// 	flex: 1 0 0%;
-	// }
+	@media (max-width: 490px) {
+		max-width: 235px;
+	}
   }
   &__media {
-	min-width: 240px;
 	flex: 1 0 auto;
 	display: flex;
   }
