@@ -590,11 +590,12 @@ $maxWidth: 1830px;
   &__text {
 	flex: 0 0 50%;
 	align-items: flex-end;
-	@media (max-width: 650px) {
-		flex: 1 0 0%;
-	}
+	// @media (max-width: 650px) {
+	// 	flex: 1 0 0%;
+	// }
   }
   &__media {
+	min-width: 240px;
 	flex: 1 0 auto;
 	display: flex;
   }
