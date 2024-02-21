@@ -25,7 +25,7 @@
     font-display: swap;
 }
 
-/* @font-face {
+@font-face {
     font-family: 'Barlow Condensed';
     src: url('BarlowCondensed-Bold.eot');
     src: url('BarlowCondensed-Bold.eot?#iefix') format('embedded-opentype'),
@@ -36,7 +36,7 @@
     font-weight: 700;
     font-style: normal;
     font-display: swap;
-} */
+}
 
 @font-face {
     font-family: 'Barlow Condensed';
