@@ -254,10 +254,9 @@ body {
   letter-spacing: -1.6px;
 }
 .label-text__sherlock {
-  display: none;
   margin-bottom: 12px;
   text-align: left;
-  font-size: 52px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
