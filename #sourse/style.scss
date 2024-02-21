@@ -592,12 +592,18 @@ $maxWidth: 1830px;
   &__text {
 	flex: 0 0 50%;
 	align-items: flex-end;
+	@media (max-width: 490px) {
+		max-width: 235px;
+	}
   }
   &__media {
 	flex: 0 0 50%;
 	display: flex;
 	@media (max-width: 650px) {
 		flex: 0 0 52%;
+	}
+	@media (max-width: 490px) {
+		min-width: 240px;
 	}
   }
 }
@@ -1304,35 +1310,40 @@ $maxWidth: 1830px;
 	img{
 		filter:hue-rotate(149deg) sepia(101%) saturate(29%) hue-rotate(323deg);
 		z-index: -1;
-		overflow: visible;
 		position: absolute;
       object-fit: cover;
-		height: 89%;
+		height: 123%;
 		width: 36%;
-		top: 0px;
+		top: -15%;
 		left: 20%;
 		@media(max-width: 1133px){
 			left: 20%;
 		}
 		@media(max-width: 1020px){
 			left: 18%;
+	      height: 145%;
+			top: -28%;
 		}
 		@media(max-width: 790px){
-			top: 8%;
+			top: -4%;
+			height: 116%;
 		}
 		@media(max-width: 685px){
 			left: 17%;
 		}
 		@media(max-width: 662px){
-		   left: 17%;
-			height: 25%;
-			width: 32%;
-			top: 50%;
+			width: 29%;
+		}
+		@media(max-width: 605px){
+		   width: 31%;
+			height: 104%;
+			left: 18%;
+			top: 5%;
 		}
 		@media(max-width: 550px){
-		 	left: 8%;
-			width: 28%;
-			top: 57%;
+			left: 8%;
+			top: 29%;
+			height: 86%;
 		}
 		@media(max-width: 490px){
 			left: 0;
