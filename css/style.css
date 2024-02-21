@@ -255,8 +255,9 @@ body {
 }
 .label-text__sherlock {
   margin-bottom: 12px;
+  max-width: 184px;
   text-align: left;
-  font-size: 12px;
+  font-size: 52px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -266,6 +267,7 @@ body {
 }
 @media (min-width: 650px) {
   .label-text__sherlock {
+    max-width: 100%;
     font-size: 70px;
   }
 }
