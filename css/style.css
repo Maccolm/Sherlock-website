@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /*Обнуление*/
-@import url("../fonts/fonts.css");
 * {
   padding: 0;
   margin: 0;
@@ -257,13 +256,28 @@ body {
 .label-text__sherlock {
   margin-bottom: 12px;
   text-align: left;
-  font-size: 128px;
+  font-size: 52px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: -1.6px;
   line-height: 0.7;
   color: #C02218;
+}
+@media (min-width: 650px) {
+  .label-text__sherlock {
+    font-size: 70px;
+  }
+}
+@media (min-width: 730px) {
+  .label-text__sherlock {
+    font-size: 90px;
+  }
+}
+@media (min-width: 950px) {
+  .label-text__sherlock {
+    font-size: 128px;
+  }
 }
 .label-text__other {
   font-family: "Manrope";
@@ -295,9 +309,6 @@ body {
     font-size: 45px;
     letter-spacing: -0.84px;
   }
-  .label-text__sherlock {
-    font-size: 90px;
-  }
   .label-text__other {
     font-size: 18px;
   }
@@ -309,9 +320,6 @@ body {
   }
   .label-text__services {
     font-size: 35px;
-  }
-  .label-text__sherlock {
-    font-size: 70px;
   }
   .label-text__other {
     font-size: 15px;
@@ -325,9 +333,6 @@ body {
   .label-text__legal {
     font-size: 110px;
     right: -18px;
-  }
-  .label-text__sherlock {
-    font-size: 52px;
   }
   .label-text__other {
     font-size: 11px;
@@ -692,11 +697,6 @@ body {
 .row-introduce__text {
   flex: 0 1 50%;
   align-items: flex-end;
-}
-@media (max-width: 490px) {
-  .row-introduce__text {
-    max-width: 235px;
-  }
 }
 .row-introduce__media {
   flex: 1 0 auto;
